@@ -1,5 +1,5 @@
 # exclude api keys and other sensitive information
-config.py
+# config.py
 
 .DS_Store
 
