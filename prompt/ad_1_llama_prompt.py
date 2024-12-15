@@ -1,3 +1,6 @@
+# Llama 3 and later version
+# the prompt for the anomaly detection task with "Normal Only" setting
+# enable the data augmentation of using LLM-generated category descriptions
 def generate_prompt_setting_1(text, normal_label_list, anomaly_label_list=None, normal_desc_dict=None, anomaly_desc_dict=None, origianl_task=None):
     if normal_desc_dict is None or len(normal_desc_dict) == 0:
         normal_categories = "\n".join([f'- **{category}**' for category in normal_label_list])

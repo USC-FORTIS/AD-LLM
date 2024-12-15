@@ -1,4 +1,4 @@
-# Llama 3 and later version
+# GPT version
 # the prompt for the anomaly detection task with "Normal Only" setting
 # enable the data augmentation of using LLM-generated category descriptions
 def generate_prompt_setting_1(text, normal_label_list, anomaly_label_list=None, 
