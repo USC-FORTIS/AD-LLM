@@ -1,0 +1,5 @@
+{"name": "agnews", "size": 32109, "normal_label_list": ["Sports", "Business", "Sci/Tech"], "anomaly_label_list": ["World"], "origianl_task": "AG news topics classification"}
+{"name": "bbc", "size": 579, "normal_label_list": ["Business", "Politics", "Sport", "Tech"], "anomaly_label_list": ["Entertainment"], "origianl_task": "BBC news topics classification"}
+{"name": "movie_review", "size": 8952, "normal_label_list": ["Positive"], "anomaly_label_list": ["Negative"], "origianl_task": "binary sentiment classification of IMDb movie reviews"}
+{"name": "N24News", "size": 19227, "normal_label_list": ["Television", "Your Money", "Automobiles", "Science", "Economy", "Dance", "Travel", "Technology", "Sports", "Movies", "Music", "Real Estate", "Books", "Education", "Art & Design", "Theater", "Media", "Style", "Global Business", "Well", "Health", "Fashion & Style", "Opinion"], "anomaly_label_list": ["Food"], "origianl_task": "New York Times news classification"}
+{"name": "sms_spam", "size": 1510, "normal_label_list": ["Non-spam (Ham)"], "anomaly_label_list": ["Spam"], "origianl_task": "mobile phone SMS spam messages detection"}
