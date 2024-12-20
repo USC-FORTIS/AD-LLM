@@ -2,17 +2,32 @@
 
 ## Overview
 
-**AD-LLM** introduces the first benchmark evaluates how large language models (LLMs) can help with natural language processing (NLP) in anomaly detection (AD). We examine three key tasks:
+**AD-LLM** introduces the first benchmark that evaluates how large language models (LLMs) can assist with natural language processing (NLP) tasks in anomaly detection (AD). We consider three key tasks:
 
-1. **Zero-shot Detection** - Leveraging LLMs' pre-trained knowledge to perform AD without task-specific training.
+1. **Zero-shot Detection**  
+   Using LLMs' pre-trained knowledge to detect anomalies without task-specific training.
 
-2. **Data Augmentation** 
-    1. **Synthetic Data Generation** - Generating synthetic data to improve AD models.
-    2. **Category Descriptions Generation** - Generating category descriptions to enhance LLM-based AD.
-   
-3. **Model Selection** - Recommending suitable unsupervised AD models via LLMs.
+2. **Data Augmentation**  
+   a. **Synthetic Data Generation**: Generating synthetic data to improve AD models.  
+   b. **Category Descriptions Generation**: Creating category descriptions to enhance LLM-based AD.
 
-Our benchmark evaluates LLMs such as GPT-4o and Llama 3.1 across multiple datasets.
+3. **Model Selection**  
+   Suggesting suitable unsupervised AD models through LLM-guided recommendations.
+
+Our benchmark evaluates LLMs such as GPT-4 and Llama 2.1 across multiple datasets, providing a clear assessment of their capabilities in AD scenarios.
+
+## Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@article{yang2024ad,
+  title={AD-LLM: Benchmarking Large Language Models for Anomaly Detection},
+  author={Yang, Tiankai and Nian, Yi and Li, Shawn and Xu, Ruiyao and Li, Yuangang and Li, Jiaqi and Xiao, Zhuo and Hu, Xiyang and Rossi, Ryan and Ding, Kaize and others},
+  journal={arXiv preprint arXiv:2412.11142},
+  year={2024}
+}
+
 
 ## Environment Set-up
 > We use anaconda to create python environment and install required libraries:
