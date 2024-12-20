@@ -16,41 +16,31 @@
 
 Our benchmark evaluates LLMs such as GPT-4 and Llama 2.1 across multiple datasets, providing a clear assessment of their capabilities in AD scenarios.
 
-## Citation
-
-If you find this work useful, please cite our paper:
-
-```bibtex
-@article{yang2024ad,
-  title={AD-LLM: Benchmarking Large Language Models for Anomaly Detection},
-  author={Yang, Tiankai and Nian, Yi and Li, Shawn and Xu, Ruiyao and Li, Yuangang and Li, Jiaqi and Xiao, Zhuo and Hu, Xiyang and Rossi, Ryan and Ding, Kaize and others},
-  journal={arXiv preprint arXiv:2412.11142},
-  year={2024}
-}
-
+![Overview of the AD-LLM framework](figs/overflow.png)
 
 ## Environment Set-up
-> We use anaconda to create python environment and install required libraries:
-```
-# creat the environment and activate it
+We use anaconda to create python environment and install required libraries:
+
+```bash
+# create the environment and activate it
 conda create --name ad_llm python=3.11
 conda activate ad_llm
 
 # install basic packages
 conda install numpy scipy scikit-learn matplotlib tqdm
 
-# please adjust the pytorch installation based on the situation
+# install PyTorch (adjust the CUDA version accordingly)
 conda install pytorch torchvision pytorch-cuda=12.4 -c pytorch -c nvidia
 
-# install PyOD (https://github.com/yzhao062/pyod)
+# install PyOD
 conda install -c conda-forge pyod
 
-# install for Llama
-conda install conda-forge::transformers
+# install libraries for Llama
+conda install -c conda-forge transformers
 pip install --upgrade huggingface hub
 pip install accelerate
 
-# install for GPT
+# install libraries for GPT
 pip install openai
 ```
 
