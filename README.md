@@ -18,6 +18,22 @@ Our benchmark evaluates LLMs such as GPT-4 and Llama 2.1 across multiple dataset
 
 ![Overview of the AD-LLM framework](figs/overflow.png)
 
+
+## Citation
+
+If you find this work useful, please cite our paper:
+
+[**Paper Link**](https://arxiv.org/abs/2412.11142): https://arxiv.org/abs/2412.11142
+
+```bibtex
+@article{yang2024ad,
+  title={AD-LLM: Benchmarking Large Language Models for Anomaly Detection},
+  author={Yang, Tiankai and Nian, Yi and Li, Shawn and Xu, Ruiyao and Li, Yuangang and Lin, Jiaqi and Xiao, Zhuo and Hu, Xiyang and Rossi, Ryan and Ding, Kaize and Hu, Xia and Zhao, Yue},
+  journal={arXiv preprint arXiv:2412.11142},
+  year={2024}
+}
+```
+
 ## Environment Set-up
 We use anaconda to create python environment and install required libraries:
 
