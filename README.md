@@ -14,7 +14,7 @@
 3. **Model Selection**  
    Suggesting suitable unsupervised AD models through LLM-guided recommendations.
 
-Our benchmark evaluates LLMs such as GPT-4 and Llama 2.1 across multiple datasets, providing a clear assessment of their capabilities in AD scenarios.
+Our benchmark evaluates LLMs such as GPT-4 and Llama 3.1 across multiple datasets, providing a clear assessment of their capabilities in AD scenarios.
 
 ![Overview of the AD-LLM framework](figs/overflow.png)
 
@@ -81,5 +81,5 @@ pip install openai
 ### 3. Model Selection
 * To run experiments: `python select_gpt.py`.
 
-# Notes
+## Notes
 * We provide one example dataset "BBC News". Please check [NLP-ADBench](https://github.com/USC-FORTIS/NLP-ADBench) for more datasets (AG News, IMDB Reviews, N24 News, and SMS Spam) with the same setting.
